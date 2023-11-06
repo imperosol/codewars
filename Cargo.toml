@@ -2,6 +2,7 @@
 name = "codewars"
 version = "0.1.0"
 edition = "2021"
+default-run = "codewars"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [profile.dev.package."*"]
@@ -19,3 +20,7 @@ strip = true
 num = "*"
 rand = "*"
 itertools = "*"
+once_cell = "1.18.0"
+indicatif = "0.17.7"
+console = "0.15.7"
+clap = { version="4", features = ["color", "derive"] }
